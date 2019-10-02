@@ -1,5 +1,4 @@
-#ifndef KONTO_H
-#define KONTO_H
+#pragma once
 
 #include <string>
 #include "SparKonto.h"
@@ -26,5 +25,3 @@ protected:
 	int Kontonummer;
 	static int count;
 };
-
-#endif // KONTO_H
